@@ -50,7 +50,7 @@ function App() {
             <a className="nav-link js-scroll-trigger" href="#services">I'm a Freelancer</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">What We're Building</a>
+            <a className="nav-link js-scroll-trigger" href="#portfolio"></a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#about">About Us</a>
@@ -71,7 +71,7 @@ function App() {
       <div className="intro-text">
         <div className="intro-lead-in">Welcome to the CreatorsBlock Studio!</div>
         <div className="intro-heading text-uppercase"> Check out what we're building.</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">I'm a Creative Writer</a>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">I'm a Creative</a>
       </div>
     </div>
   </header>
@@ -122,15 +122,15 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className="section-subheading text-muted">We are a group of passionate people who love comics and manga.</h3>
         </div>
       </div>
       <div className="row">
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
-            <h4>Kay Garland</h4>
-            <p className="text-muted">Lead Designer</p>
+            <img className="mx-auto rounded-circle" src="src/assets/img/DSC_0659.JPG" alt=""/>
+            <h4>Kasey Fu</h4>
+            <p className="text-muted">Co-founder</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="#">
@@ -153,8 +153,8 @@ function App() {
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
+            <h4>Shawn Du</h4>
+            <p class="text-muted">Co-founder</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -177,8 +177,8 @@ function App() {
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
+            <h4>Gary Zhao</h4>
+            <p class="text-muted">Co-founder</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -201,7 +201,7 @@ function App() {
       </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          <h4>If you would like to join our team, feel free to get in touch with any of us!</h4>
         </div>
       </div>
     </div>
@@ -239,7 +239,7 @@ function App() {
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h4>If you're a user who would find this project valuable, please let us know your thoughts on how we can improve it more!</h4>
         </div>
       </div>
       <div class="row">
@@ -282,7 +282,7 @@ function App() {
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; CreativesBlock, Inc.</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
