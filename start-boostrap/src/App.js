@@ -1,33 +1,36 @@
 import React from 'react';
 // import logo from './logo.svg';
 import Portfolio from './components/Portfolio.jsx';
+import Product from './components/Product.jsx';
 import './App.css';
 
 function App() {
   const mission = [
     {
-      title: 'Threads',
-      caption: 'Illustration'
+      title: 'CreativeBlock for Writers',
+      caption: 'Write. Upload. Turn into a Comic/Manga. Earn!'
     },
     {
-      title: 'Explore',
-      caption: 'Graphic Design'
+      title: 'CreativeBlock for Comic/Manga Artists',
+      caption: 'Gain credit. Earn. Be protected against copyright. Become Famous!'
     },
     {
-      title: 'Finish',
-      caption: 'Identity'
+      title: 'Readers',
+      caption: 'Subscribe. Read. Enjoy. Add value to your life!'
+    }
+  ]
+  const product = [
+    {
+      problem: 'Writers need more money and better chances of becoming a best-seller. They also struggle against copyright infringement.',
+      solution: '<insert CreativeBlock features here>'
     },
     {
-      title: 'Lines',
-      caption: 'Branding'
+      problem: 'Comic/Manga Artists do not earn enough, and struggle against copyright infringement.',
+      solution: '<insert CreativeBlock features here>'
     },
     {
-      title: 'Southwest',
-      caption: 'Website Design'
-    },
-    {
-      title: 'Window',
-      caption: 'Photography'
+      product: 'Readers are unable to find the perfect book, story or manga/comic that gurantees binge-reading.',
+      solution: '<insert CreativeBlock features here>'
     }
   ]
 
@@ -112,86 +115,7 @@ function App() {
 
 <Portfolio mission={mission}> </Portfolio>
 
-
-  <section className="page-section" id="about">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">About</h2>
-          <h3 className="section-subheading text-muted">We're passionate and we love tech.</h3>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <ul className="timeline">
-            <li>
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 className="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">An Example of our Network</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 className="subheading">An Agency is Born</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 className="subheading">Transition to Full Service</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 className="subheading">Phase Two Expansion</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <h4>Be Part
-                  <br/>Of Our
-                  <br/>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+<Product product={product}> </Product>
 
   <section className="bg-light page-section" id="team">
     <div className="container">
@@ -395,6 +319,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
