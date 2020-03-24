@@ -35,7 +35,8 @@ function App() {
     <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreatorsBlock</a>
+      <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fas fa-bars"></i>
@@ -43,13 +44,13 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a className="nav-link js-scroll-trigger" href="#services">I'm a Freelancer</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a className="nav-link js-scroll-trigger" href="#portfolio">What We're Building</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">About</a>
+            <a className="nav-link js-scroll-trigger" href="#about">About Us</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -65,9 +66,9 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome To Our Studio!</div>
-        <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div className="intro-lead-in">Welcome to the CreatorsBlock Studio!</div>
+        <div className="intro-heading text-uppercase"> Check out what we're building.</div>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">I'm a Creative Writer</a>
       </div>
     </div>
   </header>
@@ -77,7 +78,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Services</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className="section-subheading text-muted">Blockchain and Network Databases for Freelance Collaboration.</h3>
         </div>
       </div>
       <div className="row text-center">
@@ -86,24 +87,24 @@ function App() {
             <i className="fas fa-circle fa-stack-2x text-primary"></i>
             <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">E-Commerce</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">For Writers</h4>
+          <p className="text-muted"> Create amazing content, pay freelancers to help enhance your work into a comic/manga, and earn money back from readers!</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fas fa-circle fa-stack-2x text-primary"></i>
             <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Responsive Design</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">For Readers</h4>
+          <p className="text-muted">Subscribe for a small monthly fee to access amazing content produced by freelancers!</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fas fa-circle fa-stack-2x text-primary"></i>
             <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Web Security</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">For Comic/Manga Artists</h4>
+          <p className="text-muted"> Work on multiple projects at once, have multiple income streams, and have your work protected via blockchain! </p>
         </div>
       </div>
     </div>
@@ -117,7 +118,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">About</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className="section-subheading text-muted">We're passionate and we love tech.</h3>
         </div>
       </div>
       <div className="row">
@@ -133,7 +134,7 @@ function App() {
                   <h4 className="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">An Example of our Network</p>
                 </div>
               </div>
             </li>
