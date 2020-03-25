@@ -25,6 +25,7 @@ function App() {
       caption: 'Subscribe. Read. Enjoy. Add value to your life!'
     }
   ]
+
   const product = [
     {
       problem: 'Writers need more money and better chances of becoming a best-seller. They also struggle against copyright infringement.',
@@ -131,7 +132,7 @@ function App() {
   <Artists artist_1={artist_1}> </Artists>
   <Readers reader_1={reader_1}> </Readers>
   </div>
-  
+
   <Product product={product}> </Product>
   <section className="bg-light page-section" id="team">
     <div className="container">
