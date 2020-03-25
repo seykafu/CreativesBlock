@@ -1,21 +1,27 @@
 import React from 'react';
 // import logo from './logo.svg';
-import Portfolio from './components/Portfolio.jsx';
+import Artists from './components/Artists.jsx';
+import Writers from './components/Writers.jsx';
+import Readers from './components/Readers.jsx';
 import Product from './components/Product.jsx';
 import './App.css';
 
 function App() {
-  const mission = [
+  const writer_1 = [
     {
       title: 'CreativeBlock for Writers',
       caption: 'Write. Upload. Turn into a Comic/Manga. Earn!'
-    },
+    }
+  ]
+  const artist_1 = [
     {
       title: 'CreativeBlock for Comic/Manga Artists',
       caption: 'Gain credit. Earn. Be protected against copyright. Become Famous!'
-    },
+    }
+  ]
+  const reader_1 = [
     {
-      title: 'Readers',
+      title: 'CreativeBlock for Readers',
       caption: 'Subscribe. Read. Enjoy. Add value to your life!'
     }
   ]
@@ -113,10 +119,20 @@ function App() {
     </div>
   </section>
 
-<Portfolio mission={mission}> </Portfolio>
+  <div className="row">
+      <div className="col-lg-12 text-center">
+      <h2 className="section-heading text-uppercase">What type of user are you?</h2>
+      <h3 className="section-subheading text-muted">Below highlights the ways each user can obtain value from using our platform.</h3>
+      </div>
+  </div>
 
-<Product product={product}> </Product>
-
+  <div className='rowC'>
+  <Writers writer_1={writer_1}> </Writers>
+  <Artists artist_1={artist_1}> </Artists>
+  <Readers reader_1={reader_1}> </Readers>
+  </div>
+  
+  <Product product={product}> </Product>
   <section className="bg-light page-section" id="team">
     <div className="container">
       <div className="row">
