@@ -10,11 +10,10 @@ export default ({product}) => {
             <h3 className="section-subheading text-muted">So how are we going to empower all creatives around the world while providing them income?</h3>
             </div>
         </div>
-        <div className="row">
-            <div className="col-lg-12">
+        <div className="rowC">
             { 
                     product && product.map(({problem, solution}, index) => 
-                    <div className="col-md-4 col-sm-6 portfolio-item">
+                    <div className="col-md-10 col-md-10 portfolio-item">
                         <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                         <div className="portfolio-hover">
                             <div className="portfolio-hover-content">
@@ -30,7 +29,6 @@ export default ({product}) => {
                     </div>
                     )
                 }
-            </div>
         </div>
         </div>
         </section>

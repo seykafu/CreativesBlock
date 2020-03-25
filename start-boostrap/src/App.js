@@ -9,19 +9,19 @@ import './App.css';
 function App() {
   const writer_1 = [
     {
-      title: 'CreativeBlock for Writers',
+      title: 'CreativesBlock for Writers',
       caption: 'Write. Upload. Turn into a Comic/Manga. Earn!'
     }
   ]
   const artist_1 = [
     {
-      title: 'CreativeBlock for Comic/Manga Artists',
+      title: 'CreativesBlock for Comic/Manga Artists',
       caption: 'Gain credit. Earn. Be protected against copyright. Become Famous!'
     }
   ]
   const reader_1 = [
     {
-      title: 'CreativeBlock for Readers',
+      title: 'CreativesBlock for Readers',
       caption: 'Subscribe. Read. Enjoy. Add value to your life!'
     }
   ]
@@ -29,15 +29,15 @@ function App() {
   const product = [
     {
       problem: 'Writers need more money and better chances of becoming a best-seller. They also struggle against copyright infringement.',
-      solution: '<insert CreativeBlock features here>'
+      solution: '<insert CreativesBlock features here>'
     },
     {
       problem: 'Comic/Manga Artists do not earn enough, and struggle against copyright infringement.',
-      solution: '<insert CreativeBlock features here>'
+      solution: '<insert CreativesBlock features here>'
     },
     {
       product: 'Readers are unable to find the perfect book, story or manga/comic that gurantees binge-reading.',
-      solution: '<insert CreativeBlock features here>'
+      solution: '<insert CreativesBlock features here>'
     }
   ]
 
@@ -45,7 +45,7 @@ function App() {
     <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreatorsBlock</a>
+      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreativesBlock</a>
       <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -76,7 +76,7 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome to the CreatorsBlock Studio!</div>
+        <div className="intro-lead-in">Welcome to the CreativesBlock Studio!</div>
         <div className="intro-heading text-uppercase"> Check out what we're building.</div>
         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">I'm a Creative</a>
       </div>
