@@ -88,7 +88,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Services</h2>
-          <h3 className="section-subheading text-muted">Blockchain and Network Databases for Freelance Collaboration.</h3>
+          <h3 className="section-subheading text-muted">We're on a mission to help writers, comic artists and more to earn more money and collaborate better, all while protecting themselves from copyright infringement. How will we do that? Blockchain and Network Databases for Freelance Collaboration.</h3>
         </div>
       </div>
       <div className="row text-center">
@@ -127,13 +127,15 @@ function App() {
       </div>
   </div>
 
-  <div className='rowC'>
-  <Writers writer_1={writer_1}> </Writers>
-  <Artists artist_1={artist_1}> </Artists>
-  <Readers reader_1={reader_1}> </Readers>
-  </div>
+    <div className="container">
+        <div className="col-lg-14 text-center"></div>
+          <Writers writer_1={writer_1}> </Writers>
+          <Artists artist_1={artist_1}> </Artists>
+          <Readers reader_1={reader_1}> </Readers>
+    </div>
 
   <Product product={product}> </Product>
+
   <section className="bg-light page-section" id="team">
     <div className="container">
       <div className="row">
@@ -256,7 +258,7 @@ function App() {
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h4>If you're a user who would find this project valuable, please let us know your thoughts on how we can improve it more!</h4>
+          <h5 class="section-heading text-uppercase">If you're a user who would find this project valuable, please let us know your thoughts on how we can improve it more!</h5>
         </div>
       </div>
       <div class="row">

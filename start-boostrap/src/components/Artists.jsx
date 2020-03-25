@@ -7,7 +7,7 @@ export default ({artist_1}) => {
         <div className="container">
                 { 
                     artist_1 && artist_1.map(({title, caption}, index) => 
-                    <div className=".col-md-12 .col-md-12 portfolio-item">
+                    <div className=".col-md-10 .col-md-10 portfolio-item">
                         <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                         <div className="portfolio-hover">
                             <div className="portfolio-hover-content">
