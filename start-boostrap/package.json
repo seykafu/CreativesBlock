@@ -1,5 +1,6 @@
 {
   "name": "start-boostrap",
+  "Homepage": "https://github.com/seykafu/CreativesBlock",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
