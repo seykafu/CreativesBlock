@@ -154,7 +154,7 @@ function App() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kaseyfu/">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </li>
@@ -293,7 +293,7 @@ function App() {
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; CreativesBlock, Inc.</span>
+          <span class="copyright">CreativesBlock, Inc. &copy; 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -308,7 +308,7 @@ function App() {
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/company/42289588/admin/">
                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
