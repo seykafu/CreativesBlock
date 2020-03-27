@@ -250,7 +250,7 @@ function App() {
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h5 class="section-heading text-uppercase">If you're a user who would find this project valuable, please let us know your thoughts on how we can improve it more!</h5>
+          <h5 class="section-heading text-uppercase">We love comic artists and animators. We're here to help the industry.</h5>
         </div>
       </div>
       <div class="row">
