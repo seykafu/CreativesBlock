@@ -10,7 +10,7 @@ function App() {
   const writer_1 = [
     {
       title: 'CreativesBlock for Writers',
-      caption: 'Write. Upload. Turn into a Comic/Manga. Earn!'
+      caption: 'Write. Upload. Be protected against copyright. Turn into a Comic/Manga. Earn!'
     }
   ]
   const artist_1 = [
@@ -28,16 +28,8 @@ function App() {
 
   const product = [
     {
-      problem: 'Writers need more money and better chances of becoming a best-seller. They also struggle against copyright infringement.',
-      solution: '<insert CreativesBlock features here>'
-    },
-    {
-      problem: 'Comic/Manga Artists do not earn enough, and struggle against copyright infringement.',
-      solution: '<insert CreativesBlock features here>'
-    },
-    {
-      product: 'Readers are unable to find the perfect book, story or manga/comic that gurantees binge-reading.',
-      solution: '<insert CreativesBlock features here>'
+      problem: 'Writers need better chances of becoming a best-seller, and fighting against copyright infringement. Comic/Manga Artists do not earn enough, and struggle against copyright infringement. Readers are unable to find the perfect book, story or manga/comic that gurantees binge-reading.',
+      solution: '- Collaborate with others, earn more money, and be protected from copyright!'
     }
   ]
 
@@ -220,7 +212,7 @@ function App() {
       </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h4>If you would like to join our team, feel free to get in touch with any of us!</h4>
+          <h4>If you would like to join us, feel free to get in touch!</h4>
         </div>
       </div>
     </div>
