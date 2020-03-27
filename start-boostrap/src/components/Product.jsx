@@ -1,4 +1,5 @@
 import React from 'react'
+import image from './64681.jpg'
 
 export default ({product}) => {
     return (
@@ -13,14 +14,11 @@ export default ({product}) => {
             <div className="row">
                     { 
                     product && product.map(({problem, solution}, index) => 
-                    <div className=".col-md-2 .col-md-2 portfolio-item">
+                    <div className=".col-md-1 .col-md-1 portfolio-item">
                         <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                         <div className="portfolio-hover">
-                            <div className="portfolio-hover-content">
-                                <i className="fas fa-plus fa-3x"></i>
-                            </div>
                         </div>
-                        <img className="img-fluid" src="https://unsplash.it/97/140/?random" alt=""/>
+                        <img className="img-fluid" src={image} alt=""/>
                         </a>
                         <div className="portfolio-caption">
                             <p>{ problem }</p>

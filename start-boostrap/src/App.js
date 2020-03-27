@@ -155,7 +155,7 @@ function App() {
               </li>
               <li className="list-inline-item">
                 <a href="#">
-                  <i className="fa fa-linkedin-in"></i>
+                  <i className="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
@@ -179,7 +179,7 @@ function App() {
               </li>
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fa fa-linkedin-in"></i>
+                  <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
@@ -203,7 +203,7 @@ function App() {
               </li>
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fa fa-linkedin-in"></i>
+                  <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
@@ -309,7 +309,7 @@ function App() {
             </li>
             <li class="list-inline-item">
               <a href="#">
-                <i class="fa fa-linkedin-in"></i>
+                <i class="fa fa-linkedin"></i>
               </a>
             </li>
           </ul>
