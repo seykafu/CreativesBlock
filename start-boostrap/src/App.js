@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import Artists from './components/Artists.jsx';
 import Writers from './components/Writers.jsx';
 import Readers from './components/Readers.jsx';
@@ -37,8 +36,9 @@ function App() {
     <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreativesBlock</a>
-      <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
+      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreativesBlock
+      <img src="assets/img/CreativesBlock Logo.png" alt=""/>
+      </a>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fas fa-bars"></i>
@@ -139,7 +139,7 @@ function App() {
       <div className="row">
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="src/assets/img/DSC_0659.JPG" alt=""/>
+            <img className="mx-auto rounded-circle" src={require('./assets/img/DSC_0979.JPG')} alt="Kasey"/>
             <h4>Kasey Fu</h4>
             <p className="text-muted">Co-founder</p>
             <ul className="list-inline social-buttons">
@@ -162,9 +162,9 @@ function App() {
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="team-member">
+          {/*<div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
-            <h4>Shawn Du</h4>
+            <h4>Tiger Cheng</h4>
             <p class="text-muted">Co-founder</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
@@ -183,10 +183,10 @@ function App() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div class="col-sm-4">
-          <div class="team-member">
+          {/*<div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
             <h4>Gary Zhao</h4>
             <p class="text-muted">Co-founder</p>
@@ -207,7 +207,7 @@ function App() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
       <div class="row">
