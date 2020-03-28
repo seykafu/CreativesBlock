@@ -8,19 +8,19 @@ import './App.css';
 function App() {
   const writer_1 = [
     {
-      title: 'CreativesBlock for Writers',
+      title: 'CreatorsBlock for Writers',
       caption: 'Write. Upload. Be protected against copyright. Turn into a Comic/Manga. Earn!'
     }
   ]
   const artist_1 = [
     {
-      title: 'CreativesBlock for Comic/Manga Artists',
+      title: 'CreatorsBlock for Comic/Manga Artists',
       caption: 'Gain credit. Earn. Be protected against copyright. Become Famous!'
     }
   ]
   const reader_1 = [
     {
-      title: 'CreativesBlock for Readers',
+      title: 'CreatorsBlock for Readers',
       caption: 'Subscribe. Read. Enjoy. Add value to your life!'
     }
   ]
