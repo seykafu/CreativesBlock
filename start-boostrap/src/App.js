@@ -36,7 +36,7 @@ function App() {
     <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreativesBlock
+      <a className="navbar-brand js-scroll-trigger" href="#page-top">CreatorsBlock
       <img src="assets/img/CreativesBlock Logo.png" alt=""/>
       </a>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,9 +68,9 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome to the CreativesBlock Studio!</div>
+        <div className="intro-lead-in">Welcome to the CreatorsBlock Studio!</div>
         <div className="intro-heading text-uppercase"> Check out what we're building.</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">I'm a Creative</a>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">I'm a Creator</a>
       </div>
     </div>
   </header>
