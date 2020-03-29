@@ -141,7 +141,7 @@ function App() {
           <div className="team-member">
             <img className="mx-auto rounded-circle" src={require('./assets/img/DSC_0979.JPG')} alt="Kasey"/>
             <h4>Kasey Fu</h4>
-            <p className="text-muted">Co-founder</p>
+            <p className="text-muted">Founder</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="#">
