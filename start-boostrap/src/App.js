@@ -86,24 +86,18 @@ function App() {
       <div className="row text-center">
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fas fa-circle fa-stack-2x text-primary"></i>
-            <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">For Writers</h4>
           <p className="text-muted"> Create amazing content, pay freelancers to help enhance your work into a comic/manga, and earn money back from readers!</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fas fa-circle fa-stack-2x text-primary"></i>
-            <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">For Readers</h4>
           <p className="text-muted">Subscribe for a small monthly fee to access amazing content produced by freelancers!</p>
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fas fa-circle fa-stack-2x text-primary"></i>
-            <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">For Comic/Manga Artists</h4>
           <p className="text-muted"> Work on multiple projects at once, have multiple income streams, and have your work protected via blockchain! </p>
