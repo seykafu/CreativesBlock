@@ -127,7 +127,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 className="section-subheading text-muted">We are a group of passionate people who love comics and manga.</h3>
+          <h3 className="section-subheading text-muted">We are a group of passionate nerds who love animation and comics!</h3>
         </div>
       </div>
       <div className="row">
@@ -138,13 +138,13 @@ function App() {
             <p className="text-muted">Founder</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://twitter.com/Seykafu">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
-                  <i className="fa fa-facebook-f"></i>
+                <a href="https://github.com/seykafu">
+                  <i className="fa fa-github"></i>
                 </a>
               </li>
               <li className="list-inline-item">
