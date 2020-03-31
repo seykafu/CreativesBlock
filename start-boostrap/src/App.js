@@ -46,10 +46,10 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#services">I'm a Freelancer</a>
+            <a className="nav-link js-scroll-trigger" href="#services">How it works</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio"></a>
+            <a className="nav-link js-scroll-trigger" href="#portfolio">I'm an animator or comic artist</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#about">About Us</a>
@@ -308,7 +308,7 @@ function App() {
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/company/42289588/admin/">
+              <a href="https://www.linkedin.com/company/creativesblock">
                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
