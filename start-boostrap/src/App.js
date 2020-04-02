@@ -80,8 +80,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Services</h2>
-          <h3 className="section-subheading text-muted">We're on a mission to help writers, comic artists and more to earn more money and collaborate better, all while protecting themselves from copyright infringement. How will we do that? Blockchain and Network Databases for Freelance Collaboration.</h3>
-        </div>
+          <h3 className="section-subheading text-muted">We're on a mission to help decentralize the way animated and comic adaptations are made, so that animators and artists earn more money and collaborate better while protecting themselves from copyright infringement.</h3>        </div>
       </div>
       <div className="row text-center">
         <div className="col-md-4">
