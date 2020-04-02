@@ -99,7 +99,7 @@ function App() {
           <span className="fa-stack fa-4x">
           </span>
           <h4 className="service-heading">For Comic/Manga Artists</h4>
-          <p className="text-muted"> Work on multiple projects at once, have multiple income streams, and have your work protected via blockchain! </p>
+          <p className="text-muted"> Work on multiple projects at once, earn more, and have your work and art style protected via blockchain! </p>
         </div>
       </div>
     </div>
