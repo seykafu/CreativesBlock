@@ -1,4 +1,13 @@
 import React from 'react';
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
+import Spinner from './Spinner'
+import Images from './Images'
+import Buttons from './Buttons'
+import { API_URL } from './config'
 import Artists from './components/Artists.jsx';
 import Writers from './components/Writers.jsx';
 import Readers from './components/Readers.jsx';
