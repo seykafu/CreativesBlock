@@ -1,4 +1,9 @@
 import React from 'react';
+import Artists from './components/Artists.jsx';
+import Writers from './components/Writers.jsx';
+import Readers from './components/Readers.jsx';
+import Product from './components/Product.jsx';
+import './App.css';
 import {
   Route,
   NavLink,
@@ -7,12 +12,7 @@ import {
 import Spinner from './Spinner'
 import Images from './Images'
 import Buttons from './Buttons'
-import { API_URL } from './config'
-import Artists from './components/Artists.jsx';
-import Writers from './components/Writers.jsx';
-import Readers from './components/Readers.jsx';
-import Product from './components/Product.jsx';
-import './App.css';
+{/* import { API_URL } from './config' */}
 
 function App() {
   const writer_1 = [
@@ -74,7 +74,7 @@ function App() {
         <div className="content">
             <Route path="/Artists" component={Artists}/>
             <Route path="/Images" component={Images}/>
-            <Route path="/About" component={About}/>
+            {/* <Route path="/About" component={About}/> SHITS NOT WORKING WTF*/}
         </div>
       </div>
     </div>
