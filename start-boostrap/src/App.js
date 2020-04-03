@@ -44,6 +44,7 @@ function App() {
   return (
     <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <HashRouter>
     <div className="container">
       <a className="navbar-brand js-scroll-trigger" href="#page-top">CreatorsBlock
       <img src="assets/img/CreativesBlock Logo.png" alt=""/>
@@ -55,13 +56,13 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#services">How it works</a>
+            <NavLink className="nav-link js-scroll-trigger" to="/Artists">Upload my story</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">I'm an animator or comic artist</a>
+            <NavLink className="nav-link js-scroll-trigger" href="/Images">Upload my comic</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">About Us</a>
+            <NavLink className="nav-link js-scroll-trigger" href="/About">About Us</NavLink>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -70,8 +71,14 @@ function App() {
             <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
+        <div className="content">
+            <Route path="/Artists" component={Artists}/>
+            <Route path="/Images" component={Images}/>
+            <Route path="/About" component={About}/>
+        </div>
       </div>
     </div>
+  </HashRouter>
   </nav>
 
   <header className="masthead">
